@@ -1,0 +1,43 @@
+# The URL the site will be built for
+base_url = "https://sriya-g.github.io"
+theme = "silk"
+
+compile_sass = true
+title = "Sriya's Website"
+description = ""
+generate_feeds = true
+
+taxonomies = [
+    {name = "tags", rss = true},
+]
+
+[extra]
+
+# Text to display in the footer of the page
+copyright = "copyright 2026 Sriya Gottiparthi; this website is made with [Zola](https://www.getzola.org/); template is [zola-silk](https://github.com/DenysVuika/zola-silk) by [DenysVuika](https://github.com/DenysVuika); color scheme is [Selenized Dark](https://github.com/jan-warchol/selenized) by [jan-warchol](https://github.com/jan-warchol)"
+
+# Your Google Analytics ID
+analytics = ""
+
+# See below
+katex_enable = false
+
+# See below
+instantpage_enable = false
+
+[extra.silk]
+
+# Social icons
+social_icons = [
+  { url = "https://github.com/sriya-g", title = "GitHub", icon = "github" },
+  { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
+  { url = "https://www.linkedin.com/in/sriya-gottiparthi", title = "Linkedin", icon = "linkedin"},
+  { url = "", title = "@sriya-g33:matrix.org", icon = "matrix"}
+]
+
+[extra.silk.favicon]
+svg = "/images/favicon.svg"
+
+png = "/images/favicon-32x32.png"
+
+apple = "/images/apple-touch-icon.png"
