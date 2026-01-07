@@ -16,3 +16,5 @@ Check out my blog below!
 <a href="https://sriya-g.github.io/">
   <img src="/outputsmall.gif" alt="placeholder">
 </a>
+<img src="/kendrick.gif" alt="lynx compatible">
+<img src="/poweredbyfedora.gif" alt="powered by fedora">
