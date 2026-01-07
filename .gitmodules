@@ -1,0 +1,3 @@
+[submodule "themes/silk"]
+	path = themes/silk
+	url = https://github.com/DenysVuika/zola-silk.git
