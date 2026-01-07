@@ -13,6 +13,6 @@ Check out my blog below!
 
 ## [Blog Posts](/blog)
 
-<a href="https://sriya-g.github.io/" target="_blank">
-  <img src="outputsmall.gif" alt="placeholder">
+<a href="https://sriya-g.github.io/">
+  <img src="/outputsmall.gif" alt="placeholder">
 </a>
