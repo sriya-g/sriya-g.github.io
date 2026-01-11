@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Sriya&#x27;s Website</title>
+	<link href="https://sriya-g.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+	<link href="https://sriya-g.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2026-01-08T00:00:00+00:00</updated>
+	<id>https://sriya-g.github.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Software that brought me joy in 2025</title>
+		<published>2026-01-08T00:00:00+00:00</published>
+		<updated>2026-01-08T00:00:00+00:00</updated>
+		<link href="https://sriya-g.github.io/blog/software-that-brought-me-joy-in-2025/"/>
+		<link rel="alternate" href="https://sriya-g.github.io/blog/software-that-brought-me-joy-in-2025/" type="text/html"/>
+		<id>https://sriya-g.github.io/blog/software-that-brought-me-joy-in-2025/</id>
+		<content type="html">&lt;p&gt;This isn&#x27;t a definitive list at all. I just wanted to highlight some of my favorite software that I began using in 2025.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fedora&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;fedoraproject.org&#x2F;&quot;&gt;Fedora&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;2025 was the year I finally worked up the courage to switch to a Linux distribution on my main laptop.&lt;&#x2F;p&gt;
+&lt;p&gt;I used Windows for most of my life, but a combination of disliking the design changes between Windows 10 and 11 and an interest in Linux&#x27;s user customization finally pushed me to try it out. A few years ago, I tried Linux Mint and Manjaro in VMs, ended up liking KDE Plasma more than Cinnamon, and dual booted Manjaro on an old laptop. I didn&#x27;t use the install much, because the laptop had  a dead battery and was forever tethered to a wall, but it gave me my first taste of what running Linux on real hardware was like. When I got my new (current) laptop, I was initially too scared to install Linux and potentially &quot;mess it up,&quot; so I stuck to Windows 11.&lt;&#x2F;p&gt;
+&lt;p&gt;When I started college, I joined the UIUC GNU&#x2F;Linux User Group (GLUG) and met a lot of people who used Linux daily. Seeing that they were able to do college coursework with almost no issues on Linux gave me confidence to try it myself. In fact, I chose Fedora because I already knew other students who daily drove it.&lt;&#x2F;p&gt;
+&lt;p&gt;In January of last year, I dual booted Fedora and... basically didn&#x27;t use it for six months. I really enjoyed how customizable everything was (With a combination of various themes I found online, I made my install look almost exactly like Windows 7) but my entire life was still on the laptop&#x27;s Windows install.&lt;&#x2F;p&gt;
+&lt;p&gt;Finally, in June, I decided it was time to migrate all of my data to the Fedora install, which is probably one of the best decisions I&#x27;ve ever made. Except for the rare cases where software isn&#x27;t compatible with Linux, I never boot into Windows.&lt;&#x2F;p&gt;
+&lt;p&gt;If you&#x27;re curious about my Fedora install, check out my &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;sriya-g&#x2F;dotfiles&quot;&gt;dotfiles&lt;&#x2F;a&gt;!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;rockbox&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.rockbox.org&#x2F;&quot;&gt;Rockbox&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;2025 was also the year I attempted my first hardware repair, replacing the battery and storage in an old iPod Photo. After replacing the broken hard drive with a CF to SD card converter and a CF to IDE board, I decided to run Rockbox for its features and themes.&lt;&#x2F;p&gt;
+&lt;p&gt;Being able to run modern software on my iPod from 2005 is amazing. It took less than 5 minutes to install and includes every feature I&#x27;d want in digital audio player software. It can play my FLACs and I can store my listening history to upload to my last.fm account. I use the &lt;a href=&quot;https:&#x2F;&#x2F;themes.rockbox.org&#x2F;index.php?themeid=3151&amp;amp;target=ipodcolor&quot;&gt;Interpod&lt;&#x2F;a&gt; theme, which is really modern and clean looking, almost like if Apple Music ran on iPods.&lt;&#x2F;p&gt;
+&lt;p&gt;The experience isn&#x27;t perfect -- I occasionally have an issue where the iPod throws an out of memory error halfway into the first song it plays after turning on, and I have to requeue songs (though everything plays perfectly afterward for the rest of the session). The cause could be some combination of having nearly 60 gigabytes of music, trying to play large FLAC files and queue up long playlists on a device with only 32 MB of ram, and hardware damage from sitting unused and nonfunctional in a drawer for over 10 years. It hasn&#x27;t been annoying enough for me to try to fix yet.&lt;&#x2F;p&gt;
+&lt;p&gt;Considering I can play lossless audio on a 20 year old portable music player and share my listening history from it online with my friends, I&#x27;m more than happy.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;iamb&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;iamb.chat&#x2F;&quot;&gt;iamb&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Fast, reliable, and I didn&#x27;t have the same issues with trying to get my session verified that I did with Neochat. I ended up building an rpm from source (my first time ever doing this) and switched to Kitty to get image support. When I want to use Matrix on my laptop, iamb is my go-to client.&lt;&#x2F;p&gt;
+&lt;p&gt;The existence of iamb makes me appreciate open source protocols more. The official Discord client is fine, but I enjoy having options.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;and-beyond&quot;&gt;...and beyond?&lt;&#x2F;h2&gt;
+&lt;p&gt;I started off 2026 by turning an old PC into a homelab, and considering how much joy it&#x27;s brought me so far, it&#x27;ll definitely make this year&#x27;s list. Blogpost soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Microjournaling is awesome :D</title>
+		<published>2025-12-08T00:00:00+00:00</published>
+		<updated>2025-12-08T00:00:00+00:00</updated>
+		<link href="https://sriya-g.github.io/blog/microjournaling/"/>
+		<link rel="alternate" href="https://sriya-g.github.io/blog/microjournaling/" type="text/html"/>
+		<id>https://sriya-g.github.io/blog/microjournaling/</id>
+		<content type="html">&lt;p&gt;Last year, my sister gifted me a tiny 2025 dated planner. I probably should have used it as a planner (my current &quot;planner&quot; is a regular notebook, where I keep a running checklist of undated To Dos) but I decided to use it as a microjournal instead.&lt;&#x2F;p&gt;
+&lt;p&gt;Back when I was in middle and high school, I wrote literal pages every single day. When I was bored, I would just start writing down all of my thoughts. I still have those journals (though I&#x27;m not brave enough to take another look at them!) When I started college, I assumed I would have much less free time and left journaling behind. Literally. I left my journal at home, hundreds of miles away.&lt;&#x2F;p&gt;
+&lt;p&gt;It was true that I had less free time at college, but I spent most of my first semester wishing I had my journal so I could reflect on all of the novel experiences I was having. Somewhere around New Years Eve, I decided to use my new planner as a low-commitment daily journal. Each space is only ~2 square inches, so there&#x27;s barely enough room for a few sentences. It would take me less than a minute to fill a day&#x27;s space with a few sentences.&lt;&#x2F;p&gt;
+&lt;p&gt;It wasn&#x27;t really my New Years resolution, but I mostly kept up with writing every day! There were a few days (especially during the summer) where I would forget to write, but I filled in those days during the week. Once I started my second year of college, I kept my microjournal on my desk. It acted as a visual reminder to write about my day, which I usually did before I went to sleep.&lt;&#x2F;p&gt;
+&lt;p&gt;Reflecting in my microjournal also led me to discover new things about myself. I noticed all of the entries where I complained about wasting my time doomscrolling when I had work to do usually also mentioned that I was exhausted. I started a new practice: if I felt tired and noticed myself going off task, I would just go to sleep, even if it was still relatively &quot;early&quot; compared to when I usually slept. Then I would wake up early and get the work done. This made my work more manageable and made me feel a bit better about myself.&lt;&#x2F;p&gt;
+&lt;p&gt;The main problem I ran into was that on days where I did a lot, I usually ran out of space when trying to describe everything. During one vacation, I accidentally left the journal at home. I kept up my journalling on the Notes app on my phone, but when I got back, I had some trouble fitting my recollections in the space corresponding to each day. I also noticed that the entries on my phone slowly got longer throughout the vacation - not necessarily because I was doing more, but because without the space restraint of my microjournal, I tended to go into more detail about my day.&lt;&#x2F;p&gt;
+&lt;p&gt;At the same time, I think the space restraint of my tiny journal was necessary. Back when I was writing pages every day in my larger journals, I made myself finish each page I was on. That meant that if I was halfway through a page and ran out of thoughts, I just started rambling until the end of the page. Sometimes, my rambling sparked something interesting and I started writing more. Other times, it was just rambling. Either way, I set a standard for myself of writing at least one full page for each entry. Considering I have less free time now, forcing myself to write one full page every day would probably just end in me abandoning my journal within a week. With my microjournal, I get the satisfaction of filling the space for each day without feeling like writing is a huge commitment.&lt;&#x2F;p&gt;
+&lt;p&gt;Looking back at my entries for this year is going to be fun. I can&#x27;t justify buying a 2026 dated planner when I have a stack of unused notebooks, but I&#x27;ll continue microjournalling next year.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
