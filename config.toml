@@ -14,7 +14,7 @@ taxonomies = [
 [extra]
 
 # Text to display in the footer of the page
-copyright = "copyright 2026 Sriya Gottiparthi; this website is made with [Zola](https://www.getzola.org/); template is [zola-silk](https://github.com/DenysVuika/zola-silk) by [DenysVuika](https://github.com/DenysVuika); color scheme is [Selenized Dark](https://github.com/jan-warchol/selenized) by [jan-warchol](https://github.com/jan-warchol)"
+copyright = "copyright 2026 Sriya Gottiparthi; this website is made with [Zola](https://www.getzola.org/); template is [zola-silk](https://github.com/DenysVuika/zola-silk) by [DenysVuika](https://github.com/DenysVuika); color scheme is [Ayaka](https://github.com/Ruhannn/kitty-themes/blob/master/themes/Ayaka.conf) by [Ruhannn](https://github.com/Ruhannn)"
 
 # Your Google Analytics ID
 analytics = ""
