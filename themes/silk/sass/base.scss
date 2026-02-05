@@ -25,7 +25,7 @@ h5,
 h6 {
   font-weight: 300;
   font-family: $HeaderFont;
-  color: $fg_1;
+  color: $fg_0;
 }
 
 h1 {
@@ -54,6 +54,7 @@ h6 {
 
 p {
   font-size: 1.8rem;
+  color: $dim_0;
 }
 
 summary {
