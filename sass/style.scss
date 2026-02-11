@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background: #6C596B;
+}
+
+body {
+  color: #D9DCED;
+  font-size: 1.8rem;
+  font-family: helvetica;
+  line-height: 1.50;
+  margin: 20px;
+}
+
+a:link {
+  color: #8493E6;
+}
+
+a:visited {
+  color: #C19DBE;
+}
+
+.blog-content {
+  margin: 60px;
+}
