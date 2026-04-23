@@ -21,4 +21,86 @@ Check out my blog below!
 <img src="/badges/kendrick.gif" alt="lynx compatible">
 <img src="/badges/poweredbyfedora.gif" alt="powered by fedora">
 
+<div id="csplusling-webring">
+  <style>
+    #csplusling-webring {
+      --bg: #f0d8e0;
+      --text: #2b2b2b;
+      --link: #2d4aa6;
+      
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Courier New", Courier, monospace;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      border: 1px solid rgba(0,0,0,0.1);
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+      box-sizing: border-box;
+      line-height: 1.5;
+      max-width: 300px;
+      margin: 1rem auto;
+    }
 
+    #csplusling-webring .title {
+      font-size: 2rem;
+      letter-spacing: 2px;
+      margin: 0 0 1rem 0;
+      color: #231f20;
+      font-weight: bold;
+    }
+
+    #csplusling-webring .index-link {
+      display: inline-block;
+      margin-bottom: 2rem;
+      font-size: 1.25rem;
+      text-decoration: underline;
+      color: var(--link);
+    }
+
+    #csplusling-webring .nav-row {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    #csplusling-webring a {
+      color: var(--link);
+      text-decoration: underline;
+    }
+
+    #csplusling-webring .nav-item {
+      font-size: 1.1rem;
+    }
+
+    #csplusling-webring .prev::before { content: "< "; color: var(--text); }
+    #csplusling-webring .next::after { content: " >"; color: var(--text); }
+
+    #csplusling-webring a:focus {
+      outline: 3px solid rgba(45,74,166,0.18);
+      outline-offset: 2px;
+      border-radius: 3px;
+    }
+
+    @media (max-width: 480px) {
+      #csplusling-webring .nav-row {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      #csplusling-webring .index-link { margin-bottom: 1.5rem; }
+    }
+  </style>
+
+  <div class="title">cs+ling webring</div>
+
+  <div>
+    <a class="index-link" href="https://csplusling.github.io/" id="webring-index">index</a>
+  </div>
+
+  <nav class="nav-row" aria-label="webring links">
+    <a class="nav-item prev" href="https://csplusling.github.io/?action=prev">prev</a>
+    <a class="nav-item random" href="https://csplusling.github.io/?random">random</a>
+    <a class="nav-item next" href="https://csplusling.github.io/?action=next">next</a>
+  </nav>
+</div>
