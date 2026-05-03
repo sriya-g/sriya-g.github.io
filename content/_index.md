@@ -15,82 +15,69 @@ I'm interested in vintage/retro and open source technology.
 <img src="/badges/kendrick.gif" alt="lynx compatible">
 <img src="/badges/poweredbyfedora.gif" alt="powered by fedora">
 
-<div id="csplusling-webring">
-  <style>
-    #csplusling-webring {
-      --bg: #f0d8e0;
-      --text: #2b2b2b;
-      --link: #2d4aa6;
-      
-      background: #f0d8e0;
-      color: #2b2b2b;
-      padding: 1.5rem 1rem;
-      text-align: center;
-      border: 1px solid rgba(0,0,0,0.1);
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-      box-sizing: border-box;
-      line-height: 1.5;
-      max-width: 300px;
-      margin: 1rem auto;
-    }
-
-    #csplusling-webring .title {
-      font-size: 2rem;
-      letter-spacing: 2px;
-      margin: 0 0 1rem 0;
-      color: #231f20;
-      font-weight: bold;
-    }
-
-    #csplusling-webring .index-link {
-      display: inline-block;
-      margin-bottom: 2rem;
-      font-size: 1.25rem;
-      text-decoration: underline;
-      color: #2d4aa6;
-    }
-
+<style>
+  #csplusling-webring {
+    background-color: #f0d8e0 !important;
+    color: #2b2b2b;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    line-height: 1.5;
+    max-width: 300px;
+    margin: 1rem 0;
+    display: block;
+  }
+  #csplusling-webring .title {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin: 0 0 1rem 0;
+    color: #231f20;
+    font-weight: bold;
+  }
+  #csplusling-webring .index-link {
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    text-decoration: underline;
+    color: #2d4aa6;
+  }
+  #csplusling-webring .nav-row {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  #csplusling-webring a {
+    color: #2d4aa6;
+    text-decoration: underline;
+  }
+  #csplusling-webring .nav-item {
+    font-size: 1.1rem;
+  }
+  #csplusling-webring .prev::before { content: "< "; color: #2b2b2b;}
+  #csplusling-webring .next::after { content: " >"; color: #2b2b2b;}
+  #csplusling-webring a:focus {
+    outline: 3px solid rgba(45,74,166,0.18);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+  @media (max-width: 480px) {
     #csplusling-webring .nav-row {
-      display: flex;
-      justify-content: center;
-      gap: 1.5rem;
-      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 0.5rem;
     }
+    #csplusling-webring .index-link { margin-bottom: 1.5rem; }
+  }
+</style>
 
-    #csplusling-webring a {
-      color: #2d4aa6;
-      text-decoration: underline;
-    }
-
-    #csplusling-webring .nav-item {
-      font-size: 1.1rem;
-    }
-
-    #csplusling-webring .prev::before { content: "< "; color: #2b2b2b;}
-    #csplusling-webring .next::after { content: " >"; color: #2b2b2b;}
-
-    #csplusling-webring a:focus {
-      outline: 3px solid rgba(45,74,166,0.18);
-      outline-offset: 2px;
-      border-radius: 3px;
-    }
-
-    @media (max-width: 480px) {
-      #csplusling-webring .nav-row {
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-      #csplusling-webring .index-link { margin-bottom: 1.5rem; }
-    }
-  </style>
-
+<div id="csplusling-webring" style="background-color: #f0d8e0 !important; display: block !important;">
   <div class="title">cs+ling webring</div>
-
   <div>
     <a class="index-link" href="https://csplusling.github.io/" id="webring-index">index</a>
   </div>
-
   <nav class="nav-row" aria-label="webring links">
     <a class="nav-item prev" href="https://csplusling.github.io/?action=prev">prev</a>
     <a class="nav-item random" href="https://csplusling.github.io/?random">random</a>
