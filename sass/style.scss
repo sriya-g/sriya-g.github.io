@@ -4,7 +4,8 @@
 
 html {
   font-size: 62.5%;
-  background: #6C596B;
+  background: #823f7e;
+  margin: 1rem;
 }
 
 body {
@@ -25,4 +26,27 @@ a:visited {
 
 .blog-content {
   margin: 60px;
+}
+
+.navbar {
+  list-style-type: none;
+  background: #492247;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  padding: 0;
+  border-radius: 1rem;
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-item a {
+  display: block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background: #694c70;
 }

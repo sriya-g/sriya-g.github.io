@@ -5,7 +5,7 @@ template = "home.html"
 
 ## About Me
 
-I'm currently a sophomore in Computer Science + Philosophy at UIUC. I'm also minoring in Data Science.
+I'm currently a sophomore majoring in Computer Science + Philosophy and minoring in Data Science at UIUC.
 
 I'm interested in vintage/retro and open source technology.
 
@@ -22,9 +22,8 @@ I'm interested in vintage/retro and open source technology.
       --text: #2b2b2b;
       --link: #2d4aa6;
       
-      background: var(--bg);
-      color: var(--text);
-      font-family: "Courier New", Courier, monospace;
+      background: #f0d8e0;
+      color: #2b2b2b;
       padding: 1.5rem 1rem;
       text-align: center;
       border: 1px solid rgba(0,0,0,0.1);
@@ -49,7 +48,7 @@ I'm interested in vintage/retro and open source technology.
       margin-bottom: 2rem;
       font-size: 1.25rem;
       text-decoration: underline;
-      color: var(--link);
+      color: #2d4aa6;
     }
 
     #csplusling-webring .nav-row {
@@ -60,7 +59,7 @@ I'm interested in vintage/retro and open source technology.
     }
 
     #csplusling-webring a {
-      color: var(--link);
+      color: #2d4aa6;
       text-decoration: underline;
     }
 
@@ -68,8 +67,8 @@ I'm interested in vintage/retro and open source technology.
       font-size: 1.1rem;
     }
 
-    #csplusling-webring .prev::before { content: "< "; color: var(--text); }
-    #csplusling-webring .next::after { content: " >"; color: var(--text); }
+    #csplusling-webring .prev::before { content: "< "; color: #2b2b2b;}
+    #csplusling-webring .next::after { content: " >"; color: #2b2b2b;}
 
     #csplusling-webring a:focus {
       outline: 3px solid rgba(45,74,166,0.18);
