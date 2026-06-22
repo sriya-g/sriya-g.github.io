@@ -50,3 +50,19 @@ a:visited {
 .nav-item:hover {
   background: #694c70;
 }
+
+.site-title {
+  font-size: 3.6rem;
+  margin: 1.5rem 0 2rem 0;
+  font-weight: bold;
+}
+
+.site-title a {
+  color: #D9DCED;
+  text-decoration: none;
+}
+
+.site-title a:hover {
+  color: #8493E6;
+}
+
