@@ -9,26 +9,41 @@ I'm currently a sophomore majoring in Computer Science + Philosophy and minoring
 
 I'm interested in vintage/retro and open source technology.
 
-<a href="https://csplusling.github.io/">
-  <img src="/badges/outputsmall.gif" alt="cs+linguistics webring">
-</a>
-<img src="/badges/kendrick.gif" alt="lynx compatible">
-<img src="/badges/poweredbyfedora.gif" alt="powered by fedora">
+<div class="badges">
+  <a href="https://csplusling.github.io/">
+    <img src="/badges/outputsmall.gif" alt="cs+linguistics webring">
+  </a>
+  <img src="/badges/kendrick.gif" alt="lynx compatible">
+  <img src="/badges/poweredbyfedora.gif" alt="powered by fedora">
+</div>
 
 <style>
+  .badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
   #csplusling-webring {
+    font-family: inherit;
     background-color: #f0d8e0 !important;
     color: #2b2b2b;
     padding: 1.5rem 1rem;
     text-align: center;
     border: 1px solid rgba(0,0,0,0.1);
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    outline: none;
+    border-radius: 0;
+    box-shadow: none;
     box-sizing: border-box;
     line-height: 1.5;
     max-width: 300px;
-    margin: 1rem 0;
+    margin: 2rem auto;
     display: block;
+  }
+  #csplusling-webring * {
+    font-family: inherit;
   }
   #csplusling-webring .title {
     font-size: 2rem;
@@ -60,9 +75,8 @@ I'm interested in vintage/retro and open source technology.
   #csplusling-webring .prev::before { content: "< "; color: #2b2b2b;}
   #csplusling-webring .next::after { content: " >"; color: #2b2b2b;}
   #csplusling-webring a:focus {
-    outline: 3px solid rgba(45,74,166,0.18);
-    outline-offset: 2px;
-    border-radius: 3px;
+    outline: none;
+    border-radius: 0;
   }
   @media (max-width: 480px) {
     #csplusling-webring .nav-row {
