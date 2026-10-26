@@ -26,6 +26,16 @@ I'm interested in vintage/retro and open source technology.
     flex-wrap: wrap;
     margin: 2rem 0;
   }
+  .badges a {
+    display: flex;
+    align-items: center;
+    line-height: 0;
+  }
+  .badges img {
+    display: block;
+    width: 88px;
+    height: 31px;
+  }
   #csplusling-webring {
     font-family: inherit;
     background-color: #f0d8e0 !important;
