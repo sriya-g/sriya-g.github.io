@@ -5,7 +5,7 @@ template = "home.html"
 
 ## About Me
 
-I'm currently a sophomore majoring in Computer Science + Philosophy and minoring in Data Science at UIUC.
+I'm currently an undergrad at UIUC majoring in Computer Science + Philosophy and minoring in Data Science.
 
 I'm interested in vintage/retro and open source technology.
 
